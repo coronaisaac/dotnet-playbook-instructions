@@ -20,7 +20,8 @@ This repo is a collection of opinionated, **AI-ready templates** that let you sp
 
 | Template | Stack | When to use |
 |---|---|---|
-| [`minimal-api-hexagonal`](./templates/minimal-api-hexagonal/) | .NET 8/10 · Minimal API · EF Core · SQL Server | REST APIs following Clean + Hexagonal architecture |
+| [`minimal-api-hexagonal`](./templates/minimal-api-hexagonal/) | .NET 8/10 · Minimal API · EF Core · SQL Server | REST APIs with Clean + Hexagonal architecture, no controllers |
+| [`azure-function-hexagonal`](./templates/azure-function-hexagonal/) | .NET 10 · Azure Functions v4 Isolated · EF Core · PostgreSQL/SQL Server | Serverless HTTP triggers / event-driven functions with Clean Architecture |
 | `worker-service` *(coming soon)* | .NET · BackgroundService | Message consumers, scheduled jobs |
 | `grpc-service` *(coming soon)* | .NET · gRPC | Internal service-to-service communication |
 
